@@ -1,0 +1,37 @@
+{"intents":[
+  {
+    "tag": "greetings",
+    "patterns" : ["hello", "hey", "what's up", "greetings", "hi", "good day"],
+    "response" : ["hello!", "how are you", "how can i help"]
+  },
+    {
+    "tag": "goodbye",
+    "patterns" : ["bye", "have a nice day", "cya", "see ya", "goodbye", "i'm leaving"],
+    "response" : ["sad to see you go", "talk to you later", "goodbye!"]
+  },
+    {
+    "tag": "age",
+    "patterns" : ["how old", "how old is tim", "what's your age", "how old are you", "age?"],
+    "response" : ["tim is 18 years old", "i'm a day old", "18 years", "my owner tim is 18 years old"]
+  },
+    {
+    "tag": "name",
+    "patterns" : ["what's your name", "name?", "who are you", "what should i call you", "what is your name", "can you tell me your name"],
+    "response" : ["i'm tim", "my name is tim", "you can call me tim", "i'm talkie the assistant of tim"]
+  },
+    {
+    "tag": "shop",
+    "patterns" : ["I'd like to buy something", "what are your products", "what do you recommend", "what are you selling"],
+    "response" : ["we sell snacks too", "", "we have vegetables"]
+  },
+    {
+    "tag": "hours",
+    "patterns" : ["when are you guys open", "what are your hours", "hours of operation"],
+    "response" : ["24/7"]
+  },
+    {
+    "tag" : "stocks",
+    "patterns" : ["what stocks do i own", "what are my shares", "what companies am i investing in?"],
+     "response" : ["you own the following : ABBV, FB, GOOG, Appl. "]
+  }
+]}
